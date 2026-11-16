@@ -1,0 +1,12 @@
+# Aquarium: 7-class underwater detection benchmark (448 / 127 / 63 images)
+# The data is not shipped with this repository: place it at datasets/aquarium_pretrain
+# (relative to this file) or replace `path` with an absolute path, e.g.
+#   path: /data/underwater/aquarium_pretrain
+
+path: datasets/aquarium_pretrain
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 7
+names: ['fish', 'jellyfish', 'penguin', 'puffin', 'shark', 'starfish', 'stingray']
