@@ -1,0 +1,13 @@
+# RUOD: real-world underwater object detection benchmark (10 classes)
+# Layout expected (YOLO format):
+#   datasets/RUOD/images/{train,valid}/*.jpg
+#   datasets/RUOD/labels/{train,valid}/*.txt
+# `path` is relative to this file; replace it with an absolute path if preferred.
+
+path: datasets/RUOD
+train: images/train
+val: images/valid
+test: images/valid
+
+nc: 10
+names: ['corals', 'cuttlefish', 'diver', 'echinus', 'fish', 'holothurian', 'jellyfish', 'scallop', 'starfish', 'turtle']
